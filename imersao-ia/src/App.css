@@ -1,0 +1,52 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #74b5ff77;
+  
+}
+.app {
+  max-width: 90%;
+  margin: 0 auto 300px;
+  background-color: #efefef;
+  border-radius: 10px;
+  padding: 20px 30px;
+
+}
+h1{
+  text-align: center;
+}
+h2{
+  margin-bottom: 10px;
+}
+p {
+  margin: 10px 0;
+}
+input, select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-sizing: border-box;
+  width: 50%;
+}
+.row{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+.row input {
+  width:70px;
+  margin: 0 10px;
+  
+}
+.btn{
+  margin: 10px;
+  padding: 10px;
+  color:black;
+  border-radius: 5px;
+  font-size: large;
+  box-shadow: 2px 2px 2px black;
+  background-color: rgb(176, 183, 252);
+}
